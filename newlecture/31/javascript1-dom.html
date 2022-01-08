@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript1-dom.js"></script>
+</head>
+<body>
+    <section id="section5">
+        <h1>Ex5 : 엘리먼트 노드의 속성 & CSS 속성 변경</h1>
+        <div>
+            <!-- <input class="src-input" type="text" /> -->
+            <input class="src-input" list="img-list"/>
+            <datalist id="img-list">
+                <option value="test.jpg">test1</option>
+                <option value="test2.jpg">test2</option>
+                <option value="test3.jpg">test3</option>
+            </datalist>
+            <select class="img-select">
+                <option value="test.jpg">test1</option>
+                <option value="test2.jpg">test2</option>
+                <option value="test3.jpg">test3</option>
+            </select>
+            <!-- CSS 속성 변경 -->
+            <input type="color" class="color-input" />
+            <input class="change-button" type="button" value="변경하기" />
+        </div>
+        <div>
+            <img id="imgId" class="img" src="test.jpg" style="border:1px solid red;" />
+        </div>
+    </section>
+
+    <hr />
+
+    <section id="section4">
+        <h1>Ex4 : childNodes를 이용한 노드 선택</h1>
+        <div class="box">
+            <input />
+            <input />
+        </div>
+    </section>
+
+    <hr />
+
+    <section id="section3">
+        <h1>Ex3 : Selectors API Level1</h1>
+        <div>
+            <input name="x" class="txt-x" type="text" value="0" dir="rtl" />
+            +
+            <input name="y" class="txt-y" type="text" value="0" dir="rtl"/>
+            <input name="add" class="btn-add" type="button" value="=" />
+            <input name="sum" class="txt-sum" type="text" value="0" readonly dir="rtl" />
+        </div>
+    </section>
+
+    <hr />
+
+    <section id="section2">
+        <h1>Ex2 : 엘리먼트 선택방법 개선하기</h1>
+        <div>
+            <input class="txt-x" type="text" value="0" dir="rtl" />
+            +
+            <input class="txt-y" type="text" value="0" dir="rtl"/>
+            <input class="btn-add" type="button" value="=" />
+            <input class="txt-sum" type="text" value="0" readonly dir="rtl" />
+        </div>
+    </section>
+
+    <hr />
+
+    <section>
+        <h1>Ex1 : 계산기 프로그램</h1>
+        <div>
+            <input id="txt-x" type="text" value="0" dir="rtl" />
+            +
+            <input id="txt-y" type="text" value="0" dir="rtl"/>
+            <input id="btn-add" type="button" value="=" />
+            <input id="txt-sum" type="text" value="0" readonly dir="rtl" />
+        </div>
+    </section>
+</body>
+</html>
