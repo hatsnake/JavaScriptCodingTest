@@ -1,10 +1,8 @@
 window.addEventListener("load", function() {
+    // 선택한 레코드 삭제하기 연습문제
     var section = document.querySelector("#section1-1");
-    
-    var noticeList = section.querySelector(".notice-list");
-    var tbodyNode = noticeList.querySelector("tbody");
 
-    var inputs = tbodyNode.querySelectorAll(".del-button");
+    var inputs = section.querySelectorAll(".del-button");
 
     for(var i = 0; i < inputs.length; i++) {
         inputs[i].onclick = function(e) {
@@ -13,6 +11,7 @@ window.addEventListener("load", function() {
         }
     }
     
+    // 선택된 이미지 보여주기
     /*
     var section = document.querySelector("#section1");
 

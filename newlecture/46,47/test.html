@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="test.js"></script>
+    <style>
+        .file-button {
+            display: none;
+        }
+
+        .file-trigger-button {
+            background: coral;
+            border: 1px solid lightblue;
+            border-radius: 5px;
+
+            padding: 5px 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .file-trigger-button:hover {
+            background: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <section id="section5">
+        <h1>Ex5-이미지 업로드 : Trigger</h1>
+        <input type="file" class="file-button" />
+        <span class="file-trigger-button">파일선택</span>
+        <span class="file-name"></span>
+    </section>
+</body>
+</html>
